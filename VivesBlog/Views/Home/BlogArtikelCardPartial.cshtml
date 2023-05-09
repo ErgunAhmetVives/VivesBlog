@@ -1,0 +1,10 @@
+﻿@model BlogArtikel
+
+<div class="card">
+    <div class="card-header">
+        <h2><a asp-action="Detail" asp-route-id="@Model.Id">@Model.Title</a></h2>
+    </div>
+    <div class="card-body">
+        @Model.Description
+    </div>
+</div>
